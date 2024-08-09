@@ -13,7 +13,7 @@ This repository contains the code and resources for a deep learning project focu
 - [Contributing](#contributing)
 - [License](#license)
 
-## 📁 Project Overview
+## Project Overview
 Flower recognition is a common problem in computer vision that involves classifying images of flowers into specific categories. This project aims to:
 
 - Load and preprocess image data from a custom dataset.
@@ -21,7 +21,7 @@ Flower recognition is a common problem in computer vision that involves classify
 - Train the model using data augmentation techniques to enhance generalization.
 - Evaluate the model on a test dataset and analyze its performance.
 
-## 🌼 Dataset
+## Dataset
 The dataset used in this project includes images of the following flower categories:
 
 - **Dandelion**
@@ -37,7 +37,7 @@ Each category is stored in a separate directory within the primary data folder. 
 - **Normalization:** Pixel values are normalized to a range of 0 to 1.
 - **Augmentation:** Techniques such as rotation, zoom, and horizontal flipping are applied to increase the dataset size and improve model robustness artificially.
 
-## 🧠 Model Architecture
+## Model Architecture
 The CNN model is built using the following architecture:
 
 - **Input Layer:** 150x150x3 (for RGB images)
@@ -50,7 +50,7 @@ The CNN model is built using the following architecture:
 - **Optimizer:** Adam with a learning rate of 0.001.
 - **Loss Function:** Categorical Crossentropy for multi-class classification.
 
-## 📊 Evaluation and Results
+## Evaluation and Results
 After training, the model is evaluated on a separate test set to assess its performance. The evaluation process includes measuring accuracy, generating a confusion matrix, and displaying some sample predictions.
 
 ### Key Evaluation Metrics
