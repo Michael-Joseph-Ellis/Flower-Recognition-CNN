@@ -1,4 +1,4 @@
-# 🌸 Flower Recognition using Convolutional Neural Networks (CNN)
+# Flower Recognition using Convolutional Neural Networks (CNN)
 
 This repository contains the code and resources for a deep learning project focused on classifying images of flowers into distinct categories using a Convolutional Neural Network (CNN). The model is built using TensorFlow and Keras, with image preprocessing and augmentation techniques applied to improve model performance.
 
