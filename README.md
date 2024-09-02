@@ -14,7 +14,7 @@ This repository contains the code and resources for a deep learning project focu
 - [License](#license)
 
 ## Project Overview
-Flower recognition is a common problem in computer vision that involves classifying images of flowers into specific categories. This project aims to:
+A computer vision project that involves classifying images of flowers into specific categories. This project aims to:
 
 - Load and preprocess image data from a custom dataset.
 - Build a CNN model optimized for flower image classification.
